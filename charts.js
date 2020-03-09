@@ -1542,7 +1542,7 @@ const ctx = document.getElementById("myChart").getContext("2d");
           borderColor: "rgb(255, 99, 132)",
           hoverBorderColor: "blue",
           data: data,
-          steppedLine: "true"
+          steppedLine: "after"
         }
         ,
         {
@@ -1551,7 +1551,7 @@ const ctx = document.getElementById("myChart").getContext("2d");
           borderColor: "rgb(255, 99, 13)",
           hoverBorderColor: "red",
           data: data2,
-          steppedLine: "true"
+          steppedLine: "after"
         },
         {
           label: "Anthony Joshua",
@@ -1559,7 +1559,7 @@ const ctx = document.getElementById("myChart").getContext("2d");
           borderColor: "green",
           hoverBorderColor: "green",
           data: data3,
-          steppedLine: "true"
+          steppedLine: "after"
         },
         {
           label: "Dillian Whyte",
@@ -1567,7 +1567,7 @@ const ctx = document.getElementById("myChart").getContext("2d");
           borderColor: "blue",
           hoverBorderColor: "blue",
           data: data4,
-          steppedLine: "true"
+          steppedLine: "after"
         }
       ]
     },
