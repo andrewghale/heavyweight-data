@@ -1374,6 +1374,2201 @@ const whyteData = [
   }
 ]
 
+const wilderData = [
+  {
+    "number": 44,
+    "result": "Loss",
+    "record": "42–1–1",
+    "opponent": "Tyson Fury",
+    "type": "TKO",
+    "round": "7 (12), 1:39",
+    "date": "Feb 22, 2020",
+    "location": "MGM Grand Garden Arena, Paradise, Nevada, U.S.",
+    "notes": "Lost WBC heavyweight title;For vacant The Ring, and lineal heavyweight titles"
+  },
+  {
+    "number": 43,
+    "result": "Win",
+    "record": "42–0–1",
+    "opponent": "Luis Ortiz",
+    "type": "KO",
+    "round": "7 (12), 2:51",
+    "date": "Nov 23, 2019",
+    "location": "MGM Grand Garden Arena, Paradise, Nevada, U.S.",
+    "notes": "Retained WBC heavyweight title"
+  },
+  {
+    "number": 42,
+    "result": "Win",
+    "record": "41–0–1",
+    "opponent": "Dominic Breazeale",
+    "type": "KO",
+    "round": "1 (12), 2:17",
+    "date": "May 18, 2019",
+    "location": "Barclays Center, New York City, New York, U.S.",
+    "notes": "Retained WBC heavyweight title"
+  },
+  {
+    "number": 41,
+    "result": "Draw",
+    "record": "40–0–1",
+    "opponent": "Tyson Fury",
+    "type": "SD",
+    "round": "12",
+    "date": "Dec 1, 2018",
+    "location": "Staples Center, Los Angeles, California, U.S.",
+    "notes": "Retained WBC heavyweight title"
+  },
+  {
+    "number": 40,
+    "result": "Win",
+    "record": "40–0",
+    "opponent": "Luis Ortiz",
+    "type": "TKO",
+    "round": "10 (12), 2:05",
+    "date": "Mar 3, 2018",
+    "location": "Barclays Center, New York City, New York, U.S.",
+    "notes": "Retained WBC heavyweight title"
+  },
+  {
+    "number": 39,
+    "result": "Win",
+    "record": "39–0",
+    "opponent": "Bermane Stiverne",
+    "type": "KO",
+    "round": "1 (12), 2:59",
+    "date": "Nov 4, 2017",
+    "location": "Barclays Center, New York City, New York, U.S.",
+    "notes": "Retained WBC heavyweight title"
+  },
+  {
+    "number": 38,
+    "result": "Win",
+    "record": "38–0",
+    "opponent": "Gerald Washington",
+    "type": "TKO",
+    "round": "5 (12), 1:45",
+    "date": "Feb 25, 2017",
+    "location": "Legacy Arena, Birmingham, Alabama, U.S.",
+    "notes": "Retained WBC heavyweight title"
+  },
+  {
+    "number": 37,
+    "result": "Win",
+    "record": "37–0",
+    "opponent": "Chris Arreola",
+    "type": "RTD",
+    "round": "8 (12), 3:00",
+    "date": "Jul 16, 2016",
+    "location": "Legacy Arena, Birmingham, Alabama, U.S.",
+    "notes": "Retained WBC heavyweight title"
+  },
+  {
+    "number": 36,
+    "result": "Win",
+    "record": "36–0",
+    "opponent": "Artur Szpilka",
+    "type": "KO",
+    "round": "9 (12), 2:24",
+    "date": "Jan 16, 2016",
+    "location": "Barclays Center, New York City, New York, U.S.",
+    "notes": "Retained WBC heavyweight title"
+  },
+  {
+    "number": 35,
+    "result": "Win",
+    "record": "35–0",
+    "opponent": "Johann Duhaupas",
+    "type": "TKO",
+    "round": "11 (12), 0:55",
+    "date": "Sep 26, 2015",
+    "location": "Legacy Arena, Birmingham, Alabama, U.S.",
+    "notes": "Retained WBC heavyweight title"
+  },
+  {
+    "number": 34,
+    "result": "Win",
+    "record": "34–0",
+    "opponent": "Éric Molina",
+    "type": "KO",
+    "round": "9 (12), 1:03",
+    "date": "Jun 13, 2015",
+    "location": "Bartow Arena, Birmingham, Alabama, U.S.",
+    "notes": "Retained WBC heavyweight title"
+  },
+  {
+    "number": 33,
+    "result": "Win",
+    "record": "33–0",
+    "opponent": "Bermane Stiverne",
+    "type": "UD",
+    "round": "12",
+    "date": "Jan 17, 2015",
+    "location": "MGM Grand Garden Arena, Paradise, Nevada, U.S.",
+    "notes": "Won WBC heavyweight title"
+  },
+  {
+    "number": 32,
+    "result": "Win",
+    "record": "32–0",
+    "opponent": "Jason Gavern",
+    "type": "RTD",
+    "round": "4 (10), 3:00",
+    "date": "Aug 16, 2014",
+    "location": "StubHub Center, Carson, California, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 31,
+    "result": "Win",
+    "record": "31–0",
+    "opponent": "Malik Scott",
+    "type": "KO",
+    "round": "1 (12), 1:36",
+    "date": "Mar 15, 2014",
+    "location": "Coliseo Rubén Rodríguez, Bayamón, Puerto Rico",
+    "notes": ""
+  },
+  {
+    "number": 30,
+    "result": "Win",
+    "record": "30–0",
+    "opponent": "Nicolai Firtha",
+    "type": "KO",
+    "round": "4 (10), 1:26",
+    "date": "Oct 26, 2013",
+    "location": "Boardwalk Hall, Atlantic City, New Jersey, U.S.",
+    "notes": "Retained WBC Continental Americas heavyweight title"
+  },
+  {
+    "number": 29,
+    "result": "Win",
+    "record": "29–0",
+    "opponent": "Siarhei Liakhovich",
+    "type": "KO",
+    "round": "1 (10), 1:43",
+    "date": "Aug 9, 2013",
+    "location": "Fantasy Springs Resort Casino, Indio, California, U.S.",
+    "notes": "Retained WBC Continental Americas heavyweight title"
+  },
+  {
+    "number": 28,
+    "result": "Win",
+    "record": "28–0",
+    "opponent": "Audley Harrison",
+    "type": "TKO",
+    "round": "1 (12), 1:10",
+    "date": "Apr 27, 2013",
+    "location": "Motorpoint Arena, Sheffield, England",
+    "notes": ""
+  },
+  {
+    "number": 27,
+    "result": "Win",
+    "record": "27–0",
+    "opponent": "Matthew Greer",
+    "type": "TKO",
+    "round": "2 (8), 1:16",
+    "date": "Jan 19, 2013",
+    "location": "Centro de Convenciones, Villahermosa, Mexico",
+    "notes": ""
+  },
+  {
+    "number": 26,
+    "result": "Win",
+    "record": "26–0",
+    "opponent": "Kelvin Price",
+    "type": "KO",
+    "round": "3 (10), 0:51",
+    "date": "Dec 15, 2012",
+    "location": "Memorial Sports Arena, Los Angeles, California, U.S.",
+    "notes": "Won vacant WBC Continental Americas heavyweight title"
+  },
+  {
+    "number": 25,
+    "result": "Win",
+    "record": "25–0",
+    "opponent": "Damon McCreary",
+    "type": "KO",
+    "round": "2 (10), 0:55",
+    "date": "Sep 8, 2012",
+    "location": "The Hangar, Costa Mesa, California, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 24,
+    "result": "Win",
+    "record": "24–0",
+    "opponent": "Kertson Manswell",
+    "type": "TKO",
+    "round": "1 (10), 2:10",
+    "date": "Aug 4, 2012",
+    "location": "Civic Center Expo Hall, Mobile, Alabama, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 23,
+    "result": "Win",
+    "record": "23–0",
+    "opponent": "Owen Beck",
+    "type": "RTD",
+    "round": "3 (8), 3:00",
+    "date": "Jun 23, 2012",
+    "location": "Killer Buzz Arena, Tuscaloosa, Alabama, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 22,
+    "result": "Win",
+    "record": "22–0",
+    "opponent": "Jesse Oltmanns",
+    "type": "TKO",
+    "round": "1 (8), 0:26",
+    "date": "May 26, 2012",
+    "location": "Oasis Hotel Complex, Cancún, Mexico",
+    "notes": ""
+  },
+  {
+    "number": 21,
+    "result": "Win",
+    "record": "21–0",
+    "opponent": "Marlon Hayes",
+    "type": "TKO",
+    "round": "4 (8), 3:00",
+    "date": "Feb 25, 2012",
+    "location": "Scottrade Center, St. Louis, Missouri, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 20,
+    "result": "Win",
+    "record": "20–0",
+    "opponent": "David Long",
+    "type": "KO",
+    "round": "1 (8), 1:17",
+    "date": "Nov 26, 2011",
+    "location": "U.S. Bank Arena, Cincinnati, Ohio, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 19,
+    "result": "Win",
+    "record": "19–0",
+    "opponent": "Daniel Cota",
+    "type": "KO",
+    "round": "3 (8), 2:55",
+    "date": "Nov 5, 2011",
+    "location": "Centro de Convenciones, Cancún, Mexico",
+    "notes": ""
+  },
+  {
+    "number": 18,
+    "result": "Win",
+    "record": "18–0",
+    "opponent": "Dominique Alexander",
+    "type": "TKO",
+    "round": "2 (6), 2:02",
+    "date": "Aug 27, 2011",
+    "location": "Water Oaks Farm Arena, Tuscaloosa, Alabama, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 17,
+    "result": "Win",
+    "record": "17–0",
+    "opponent": "Damon Reed",
+    "type": "KO",
+    "round": "2 (6), 1:59",
+    "date": "Jun 18, 2011",
+    "location": "Tuscaloosa Amphitheater, Tuscaloosa, Alabama, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 16,
+    "result": "Win",
+    "record": "16–0",
+    "opponent": "Reggie Pena",
+    "type": "TKO",
+    "round": "1 (6), 2:03",
+    "date": "May 6, 2011",
+    "location": "Fantasy Springs Resort Casino, Indio, California, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 15,
+    "result": "Win",
+    "record": "15–0",
+    "opponent": "DeAndrey Abron",
+    "type": "TKO",
+    "round": "2 (6), 1:23",
+    "date": "Feb 19, 2011",
+    "location": "Shelton State Community College, Tuscaloosa, Alabama, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 14,
+    "result": "Win",
+    "record": "14–0",
+    "opponent": "Danny Sheehan",
+    "type": "KO",
+    "round": "1 (6), 1:48",
+    "date": "Dec 2, 2010",
+    "location": "Hilton Towers Ballroom, Lafayette, Louisiana, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 13,
+    "result": "Win",
+    "record": "13–0",
+    "opponent": "Harold Sconiers",
+    "type": "TKO",
+    "round": "4 (6), 1:09",
+    "date": "Oct 15, 2010",
+    "location": "Fantasy Springs Resort Casino, Indio, California, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 12,
+    "result": "Win",
+    "record": "12–0",
+    "opponent": "Shannon Caudle",
+    "type": "KO",
+    "round": "1 (6), 1:04",
+    "date": "Sep 25, 2010",
+    "location": "Fitzgeralds Casino and Hotel, Tunica Resorts, Mississippi, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 11,
+    "result": "Win",
+    "record": "11–0",
+    "opponent": "Dustin Nichols",
+    "type": "RTD",
+    "round": "1 (6), 3:00",
+    "date": "Jul 3, 2010",
+    "location": "Club Palace, Hattiesburg, Mississippi, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 10,
+    "result": "Win",
+    "record": "10–0",
+    "opponent": "Alvaro Morales",
+    "type": "TKO",
+    "round": "3 (6), 1:23",
+    "date": "Apr 30, 2010",
+    "location": "Tropicana Las Vegas, Paradise, Nevada, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 9,
+    "result": "Win",
+    "record": "9–0",
+    "opponent": "Ty Cobb",
+    "type": "KO",
+    "round": "1 (6), 0:33",
+    "date": "Apr 2, 2010",
+    "location": "The Joint, Paradise, Nevada, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 8,
+    "result": "Win",
+    "record": "8–0",
+    "opponent": "Jerry Vaughn",
+    "type": "KO",
+    "round": "1 (6), 1:02",
+    "date": "Nov 28, 2009",
+    "location": "Duke Energy Convention Center, Cincinnati, Ohio, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 7,
+    "result": "Win",
+    "record": "7–0",
+    "opponent": "Travis Allen",
+    "type": "TKO",
+    "round": "1 (4), 1:30",
+    "date": "Aug 14, 2009",
+    "location": "Desert Diamond Casino, Tucson, Arizona, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 6,
+    "result": "Win",
+    "record": "6–0",
+    "opponent": "Kelsey Arnold",
+    "type": "KO",
+    "round": "1 (4), 1:13",
+    "date": "Jun 26, 2009",
+    "location": "Desert Diamond Casino, Tucson, Arizona, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 5,
+    "result": "Win",
+    "record": "5–0",
+    "opponent": "Charles Brown",
+    "type": "KO",
+    "round": "1 (6), 0:55",
+    "date": "May 23, 2009",
+    "location": "Duke Energy Convention Center, Cincinnati, Ohio, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 4,
+    "result": "Win",
+    "record": "4–0",
+    "opponent": "Joseph Rabotte",
+    "type": "KO",
+    "round": "1 (4), 2:33",
+    "date": "Apr 24, 2009",
+    "location": "UIC Pavilion, Chicago, Illinois, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 3,
+    "result": "Win",
+    "record": "3–0",
+    "opponent": "Richard Greene Jr.",
+    "type": "RTD",
+    "round": "1 (4), 3:00",
+    "date": "Mar 14, 2009",
+    "location": "Duke Energy Convention Center, Cincinnati, Ohio, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 2,
+    "result": "Win",
+    "record": "2–0",
+    "opponent": "Shannon Gray",
+    "type": "TKO",
+    "round": "1 (4), 2:12",
+    "date": "Mar 6, 2009",
+    "location": "James M. Trotter Convention Center, Columbus, Mississippi, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 1,
+    "result": "Win",
+    "record": "1–0",
+    "opponent": "Ethan Cox",
+    "type": "TKO",
+    "round": "2 (4), 2:54",
+    "date": "Nov 15, 2008",
+    "location": "Memorial Gymnasium, Nashville, Tennessee, U.S.",
+    "notes": ""
+  }
+]
+
+const povetkinData = [
+  {
+    "number": 38,
+    "result": "Draw",
+    "record": "35–2–1",
+    "opponent": "Michael Hunter",
+    "type": "SD",
+    "round": "12",
+    "date": "7 Dec 2019",
+    "location": "Diriyah Arena, Diriyah, Saudi Arabia",
+    "notes": ""
+  },
+  {
+    "number": 37,
+    "result": "Win",
+    "record": "35–2",
+    "opponent": "Hughie Fury",
+    "type": "UD",
+    "round": "12",
+    "date": "31 Aug 2019",
+    "location": "The O2 Arena, London, England",
+    "notes": "Won vacant WBA International heavyweight title"
+  },
+  {
+    "number": 36,
+    "result": "Loss",
+    "record": "34–2",
+    "opponent": "Anthony Joshua",
+    "type": "TKO",
+    "round": "7 (12), 1:59",
+    "date": "22 Sep 2018",
+    "location": "Wembley Stadium, London, England",
+    "notes": "For WBA (Super), IBF, WBO, and IBO heavyweight titles"
+  },
+  {
+    "number": 35,
+    "result": "Win",
+    "record": "34–1",
+    "opponent": "David Price",
+    "type": "KO",
+    "round": "5 (12), 1:02",
+    "date": "31 Mar 2018",
+    "location": "Principality Stadium, Cardiff, Wales",
+    "notes": "Retained WBA Inter-Continental and WBO International heavyweight titles"
+  },
+  {
+    "number": 34,
+    "result": "Win",
+    "record": "33–1",
+    "opponent": "Christian Hammer",
+    "type": "UD",
+    "round": "12",
+    "date": "15 Dec 2017",
+    "location": "Palace of Sporting Games, Yekaterinburg, Russia",
+    "notes": "Retained WBO International heavyweight title;Won vacant WBA Inter-Continental heavyweight title"
+  },
+  {
+    "number": 33,
+    "result": "Win",
+    "record": "32–1",
+    "opponent": "Andriy Rudenko",
+    "type": "UD",
+    "round": "12",
+    "date": "1 Jul 2017",
+    "location": "Luzhniki Palace of Sports, Moscow, Russia",
+    "notes": "Won vacant WBA Continental (Europe) and WBO International heavyweight titles"
+  },
+  {
+    "number": 32,
+    "result": "Win",
+    "record": "31–1",
+    "opponent": "Johann Duhaupas",
+    "type": "KO",
+    "round": "6 (10), 2:59",
+    "date": "17 Dec 2016",
+    "location": "IEC Expo, Yekaterinburg, Russia",
+    "notes": ""
+  },
+  {
+    "number": 31,
+    "result": "Win",
+    "record": "30–1",
+    "opponent": "Mariusz Wach",
+    "type": "TKO",
+    "round": "12 (12) 0:50",
+    "date": "4 Nov 2015",
+    "location": "TatNeft Arena, Kazan, Russia",
+    "notes": "Retained WBC Silver heavyweight title"
+  },
+  {
+    "number": 30,
+    "result": "Win",
+    "record": "29–1",
+    "opponent": "Mike Perez",
+    "type": "TKO",
+    "round": "1 (12), 1:31",
+    "date": "22 May 2015",
+    "location": "Luzhniki Palace of Sports, Moscow, Russia",
+    "notes": "Retained WBC Silver heavyweight title"
+  },
+  {
+    "number": 29,
+    "result": "Win",
+    "record": "28–1",
+    "opponent": "Carlos Takam",
+    "type": "KO",
+    "round": "10 (12), 0:54",
+    "date": "24 Oct 2014",
+    "location": "Luzhniki Palace of Sports, Moscow, Russia",
+    "notes": "Won WBC Silver heavyweight title"
+  },
+  {
+    "number": 28,
+    "result": "Win",
+    "record": "27–1",
+    "opponent": "Manuel Charr",
+    "type": "KO",
+    "round": "7 (12), 1:09",
+    "date": "30 May 2014",
+    "location": "Luzhniki Palace of Sports, Moscow, Russia",
+    "notes": "Won WBC International heavyweight title"
+  },
+  {
+    "number": 27,
+    "result": "Loss",
+    "record": "26–1",
+    "opponent": "Wladimir Klitschko",
+    "type": "UD",
+    "round": "12",
+    "date": "5 Oct 2013",
+    "location": "Olympic Indoor Arena, Moscow, Russia",
+    "notes": "Lost WBA (Regular) heavyweight title;For IBF, WBO, IBO, The Ring, and lineal heavyweight titles"
+  },
+  {
+    "number": 26,
+    "result": "Win",
+    "record": "26–0",
+    "opponent": "Andrzej Wawrzyk",
+    "type": "TKO",
+    "round": "3 (12), 2:28",
+    "date": "17 May 2013",
+    "location": "Crocus City Hall, Krasnogorsk, Russia",
+    "notes": "Retained WBA (Regular) heavyweight title"
+  },
+  {
+    "number": 25,
+    "result": "Win",
+    "record": "25–0",
+    "opponent": "Hasim Rahman",
+    "type": "TKO",
+    "round": "2 (12), 1:46",
+    "date": "29 Sep 2012",
+    "location": "Alsterdorfer Sporthalle, Hamburg, Germany",
+    "notes": "Retained WBA (Regular) heavyweight title"
+  },
+  {
+    "number": 24,
+    "result": "Win",
+    "record": "24–0",
+    "opponent": "Marco Huck",
+    "type": "MD",
+    "round": "12",
+    "date": "25 Feb 2012",
+    "location": "Porsche-Arena, Stuttgart, Germany",
+    "notes": "Retained WBA (Regular) heavyweight title"
+  },
+  {
+    "number": 23,
+    "result": "Win",
+    "record": "23–0",
+    "opponent": "Cedric Boswell",
+    "type": "KO",
+    "round": "8 (12), 2:58",
+    "date": "3 Dec 2011",
+    "location": "Hartwall Arena, Helsinki, Finland",
+    "notes": "Retained WBA (Regular) heavyweight title"
+  },
+  {
+    "number": 22,
+    "result": "Win",
+    "record": "22–0",
+    "opponent": "Ruslan Chagaev",
+    "type": "UD",
+    "round": "12",
+    "date": "27 Aug 2011",
+    "location": "Messe, Erfurt, Germany",
+    "notes": "Won vacant WBA (Regular) heavyweight title"
+  },
+  {
+    "number": 21,
+    "result": "Win",
+    "record": "21–0",
+    "opponent": "Nicolai Firtha",
+    "type": "UD",
+    "round": "10",
+    "date": "18 Dec 2010",
+    "location": "Max-Schmeling-Halle, Berlin, Germany",
+    "notes": ""
+  },
+  {
+    "number": 20,
+    "result": "Win",
+    "record": "20–0",
+    "opponent": "Teke Oruh",
+    "type": "KO",
+    "round": "5 (10), 2:57",
+    "date": "16 Oct 2010",
+    "location": "Olimpyskiy Sports Palace, Chekhov, Russia",
+    "notes": ""
+  },
+  {
+    "number": 19,
+    "result": "Win",
+    "record": "19–0",
+    "opponent": "Javier Mora",
+    "type": "TKO",
+    "round": "5 (10), 0:50",
+    "date": "13 Mar 2010",
+    "location": "Max-Schmeling-Halle, Berlin, Germany",
+    "notes": ""
+  },
+  {
+    "number": 18,
+    "result": "Win",
+    "record": "18–0",
+    "opponent": "Leo Nolan",
+    "type": "KO",
+    "round": "3 (10), 2:33",
+    "date": "5 Dec 2009",
+    "location": "MHP Arena, Ludwigsburg, Germany",
+    "notes": ""
+  },
+  {
+    "number": 17,
+    "result": "Win",
+    "record": "17–0",
+    "opponent": "Jason Estrada",
+    "type": "UD",
+    "round": "10",
+    "date": "4 Apr 2009",
+    "location": "Burg-Wächter Castello, Düsseldorf, Germany",
+    "notes": ""
+  },
+  {
+    "number": 16,
+    "result": "Win",
+    "record": "16–0",
+    "opponent": "Taurus Sykes",
+    "type": "KO",
+    "round": "4 (10), 1:43",
+    "date": "19 Jul 2008",
+    "location": "Olimpyskiy Sports Palace, Chekhov, Russia",
+    "notes": ""
+  },
+  {
+    "number": 15,
+    "result": "Win",
+    "record": "15–0",
+    "opponent": "Eddie Chambers",
+    "type": "UD",
+    "round": "12",
+    "date": "26 Jan 2008",
+    "location": "Tempodrom, Berlin, Germany",
+    "notes": ""
+  },
+  {
+    "number": 14,
+    "result": "Win",
+    "record": "14–0",
+    "opponent": "Chris Byrd",
+    "type": "TKO",
+    "round": "11 (12), 1:52",
+    "date": "27 Oct 2007",
+    "location": "Messe, Erfurt, Germany",
+    "notes": ""
+  },
+  {
+    "number": 13,
+    "result": "Win",
+    "record": "13–0",
+    "opponent": "Larry Donald",
+    "type": "UD",
+    "round": "10",
+    "date": "30 Jun 2007",
+    "location": "Olympic Indoor Arena, Moscow, Russia",
+    "notes": ""
+  },
+  {
+    "number": 12,
+    "result": "Win",
+    "record": "12–0",
+    "opponent": "Patrice L'Heureux",
+    "type": "KO",
+    "round": "2 (10), 1:02",
+    "date": "26 May 2007",
+    "location": "Jako Arena, Bamberg, Germany",
+    "notes": ""
+  },
+  {
+    "number": 11,
+    "result": "Win",
+    "record": "11–0",
+    "opponent": "David Bostice",
+    "type": "TKO",
+    "round": "2 (10), 2:57",
+    "date": "3 Mar 2007",
+    "location": "StadtHalle, Rostock, Germany",
+    "notes": ""
+  },
+  {
+    "number": 10,
+    "result": "Win",
+    "record": "10–0",
+    "opponent": "Imamu Mayfield",
+    "type": "TKO",
+    "round": "3 (10)",
+    "date": "10 Dec 2006",
+    "location": "Olympic Indoor Arena, Moscow, Russia",
+    "notes": ""
+  },
+  {
+    "number": 9,
+    "result": "Win",
+    "record": "9–0",
+    "opponent": "Ed Mahone",
+    "type": "TKO",
+    "round": "5 (8), 2:05",
+    "date": "23 Sep 2006",
+    "location": "Rittal Arena, Wetzlar, Germany",
+    "notes": ""
+  },
+  {
+    "number": 8,
+    "result": "Win",
+    "record": "8–0",
+    "opponent": "Livin Castillo",
+    "type": "TKO",
+    "round": "4 (8), 2:45",
+    "date": "3 Jun 2006",
+    "location": "TUI Arena, Hanover, Germany",
+    "notes": ""
+  },
+  {
+    "number": 7,
+    "result": "Win",
+    "record": "7–0",
+    "opponent": "Friday Ahunanya",
+    "type": "UD",
+    "round": "6",
+    "date": "22 Apr 2006",
+    "location": "SAP Arena, Mannheim, Germany",
+    "notes": ""
+  },
+  {
+    "number": 6,
+    "result": "Win",
+    "record": "6–0",
+    "opponent": "Richard Bango",
+    "type": "KO",
+    "round": "2 (6), 2:20",
+    "date": "4 Mar 2006",
+    "location": "EWE Arena, Oldenburg, Germany",
+    "notes": ""
+  },
+  {
+    "number": 5,
+    "result": "Win",
+    "record": "5–0",
+    "opponent": "Willie Chapman",
+    "type": "TKO",
+    "round": "5 (6), 2:21",
+    "date": "17 Dec 2005",
+    "location": "Max-Schmeling-Halle, Berlin, Germany",
+    "notes": ""
+  },
+  {
+    "number": 4,
+    "result": "Win",
+    "record": "4–0",
+    "opponent": "Stephane Tessier",
+    "type": "UD",
+    "round": "4",
+    "date": "12 Nov 2005",
+    "location": "Alsterdorfer Sporthalle, Hamburg, Germany",
+    "notes": ""
+  },
+  {
+    "number": 3,
+    "result": "Win",
+    "record": "3–0",
+    "opponent": "John Castle",
+    "type": "RTD",
+    "round": "1 (4), 3:00",
+    "date": "1 Oct 2005",
+    "location": "EWE Arena, Oldenburg, Germany",
+    "notes": ""
+  },
+  {
+    "number": 2,
+    "result": "Win",
+    "record": "2–0",
+    "opponent": "Cerrone Fox",
+    "type": "TKO",
+    "round": "4 (4), 2:37",
+    "date": "3 Sep 2005",
+    "location": "Internationales Congress Centrum, Berlin, Germany",
+    "notes": ""
+  },
+  {
+    "number": 1,
+    "result": "Win",
+    "record": "1–0",
+    "opponent": "Muhammad Ali Durmaz",
+    "type": "TKO",
+    "round": "2 (4), 1:23",
+    "date": "11 Jun 2005",
+    "location": "BigBox, Kempten, Germany",
+    "notes": ""
+  }
+]
+
+const ortizData = [
+  {
+    "number": 35,
+    "result": "Loss",
+    "record": "31–2 (2)",
+    "opponent": "Deontay Wilder",
+    "type": "KO",
+    "round": "7 (12), 2:51",
+    "date": "23 Nov 2019",
+    "location": "MGM Grand Garden Arena, Paradise, Nevada, U.S.",
+    "notes": "For WBC heavyweight title"
+  },
+  {
+    "number": 34,
+    "result": "Win",
+    "record": "31–1 (2)",
+    "opponent": "Christian Hammer",
+    "type": "UD",
+    "round": "10",
+    "date": "2 Mar 2019",
+    "location": "Barclays Center, New York City, New York, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 33,
+    "result": "Win",
+    "record": "30–1 (2)",
+    "opponent": "Travis Kauffman",
+    "type": "TKO",
+    "round": "10 (10), 1:58",
+    "date": "1 Dec 2018",
+    "location": "Staples Center, Los Angeles, California, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 32,
+    "result": "Win",
+    "record": "29–1 (2)",
+    "opponent": "Răzvan Cojanu",
+    "type": "TKO",
+    "round": "2 (10), 2:08",
+    "date": "28 Jul 2018",
+    "location": "Staples Center, Los Angeles, California, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 31,
+    "result": "Loss",
+    "record": "28–1 (2)",
+    "opponent": "Deontay Wilder",
+    "type": "TKO",
+    "round": "10 (12), 2:05",
+    "date": "3 Mar 2018",
+    "location": "Barclays Center, New York City, New York, U.S.",
+    "notes": "For WBC heavyweight title"
+  },
+  {
+    "number": 30,
+    "result": "Win",
+    "record": "28–0 (2)",
+    "opponent": "Daniel Martz",
+    "type": "KO",
+    "round": "2 (10), 0:43",
+    "date": "8 Dec 2017",
+    "location": "Park Race Track, Hialeah, Florida, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 29,
+    "result": "Win",
+    "record": "27–0 (2)",
+    "opponent": "David Allen",
+    "type": "TKO",
+    "round": "7 (8), 2:59",
+    "date": "10 Dec 2016",
+    "location": "Manchester Arena, Manchester, England",
+    "notes": ""
+  },
+  {
+    "number": 28,
+    "result": "Win",
+    "record": "26–0 (2)",
+    "opponent": "Malik Scott",
+    "type": "UD",
+    "round": "12",
+    "date": "12 Nov 2016",
+    "location": "Salle des Etoiles, Monte Carlo, Monaco",
+    "notes": "Won vacant WBA Inter-Continental heavyweight title"
+  },
+  {
+    "number": 27,
+    "result": "Win",
+    "record": "25–0 (2)",
+    "opponent": "Tony Thompson",
+    "type": "KO",
+    "round": "6 (12), 2:29",
+    "date": "5 Mar 2016",
+    "location": "D.C. Armory, Washington, D.C., U.S.",
+    "notes": ""
+  },
+  {
+    "number": 26,
+    "result": "Win",
+    "record": "24–0 (2)",
+    "opponent": "Bryant Jennings",
+    "type": "TKO",
+    "round": "7 (12), 2:41",
+    "date": "19 Dec 2015",
+    "location": "Turning Stone Resort Casino, Verona, New York, U.S.",
+    "notes": "Retained WBA interim heavyweight title"
+  },
+  {
+    "number": 25,
+    "result": "Win",
+    "record": "23–0 (2)",
+    "opponent": "Matias Ariel Vidondo",
+    "type": "KO",
+    "round": "3 (12), 0:17",
+    "date": "17 Oct 2015",
+    "location": "Madison Square Garden, New York City, New York, U.S.",
+    "notes": "Won vacant WBA interim heavyweight title"
+  },
+  {
+    "number": 24,
+    "result": "Win",
+    "record": "22–0 (2)",
+    "opponent": "Byron Polley",
+    "type": "TKO",
+    "round": "1 (8), 2:38",
+    "date": "20 Jun 2015",
+    "location": "Bell Centre, Montreal, Quebec, Canada",
+    "notes": ""
+  },
+  {
+    "number": 23,
+    "result": "NC",
+    "record": "21–0 (2)",
+    "opponent": "Lateef Kayode",
+    "type": "TKO",
+    "round": "1 (12), 2:55",
+    "date": "11 Sep 2014",
+    "location": "The Joint, Paradise, Nevada, U.S.",
+    "notes": "For vacant WBA interim heavyweight title;Originally a TKO win for Ortiz, later ruled an NC after he failed a drug test"
+  },
+  {
+    "number": 22,
+    "result": "Win",
+    "record": "21–0 (1)",
+    "opponent": "Monte Barrett",
+    "type": "KO",
+    "round": "4 (10), 0:38",
+    "date": "3 Apr 2014",
+    "location": "Fantasy Springs Resort Casino, Indio, California, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 21,
+    "result": "Win",
+    "record": "20–0 (1)",
+    "opponent": "Alex Gonzales",
+    "type": "KO",
+    "round": "1 (10), 2:00",
+    "date": "26 Nov 2013",
+    "location": "BB&T Center, Sunrise, Florida, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 20,
+    "result": "NC",
+    "record": "19–0 (1)",
+    "opponent": "Joseph Rabotte",
+    "type": "KO",
+    "round": "3 (10), 2:59",
+    "date": "20 Jul 2013",
+    "location": "Mirage Exotic Nightlife, Greensboro, North Carolina, U.S.",
+    "notes": "Originally a KO win for Ortiz after Rabotte fell out of the ring, later ruled an NC"
+  },
+  {
+    "number": 19,
+    "result": "Win",
+    "record": "19–0",
+    "opponent": "Santiago De Paula",
+    "type": "TKO",
+    "round": "4 (10), 2:22",
+    "date": "16 Nov 2012",
+    "location": "Club de Leones El Millón, Santo Domingo, Dominican Republic",
+    "notes": ""
+  },
+  {
+    "number": 18,
+    "result": "Win",
+    "record": "18–0",
+    "opponent": "Juan Carlos Antonio Maldonado",
+    "type": "TKO",
+    "round": "1 (6), 0:30",
+    "date": "9 Nov 2012",
+    "location": "Gimnasio Joan Guzmán, Santo Domingo, Dominican Republic",
+    "notes": ""
+  },
+  {
+    "number": 17,
+    "result": "Win",
+    "record": "17–0",
+    "opponent": "Jose Santos Peralta",
+    "type": "KO",
+    "round": "1 (10), 2:24",
+    "date": "30 Sep 2012",
+    "location": "Gimnasio Joan Guzmán, Santo Domingo, Dominican Republic",
+    "notes": ""
+  },
+  {
+    "number": 16,
+    "result": "Win",
+    "record": "16–0",
+    "opponent": "Walter Palacios",
+    "type": "TKO",
+    "round": "2 (6), 0:10",
+    "date": "26 May 2012",
+    "location": "Polideportivo España, Managua, Nicaragua",
+    "notes": ""
+  },
+  {
+    "number": 15,
+    "result": "Win",
+    "record": "15–0",
+    "opponent": "Epifanio Mendoza",
+    "type": "DQ",
+    "round": "7 (10), 1:07",
+    "date": "10 Feb 2012",
+    "location": "Community Center, Palm Bay, Florida, U.S.",
+    "notes": "Won vacant WBC Latino and WBO Latino heavyweight titles;Mendoza disqualified for a low blow"
+  },
+  {
+    "number": 14,
+    "result": "Win",
+    "record": "14–0",
+    "opponent": "Frank Mola",
+    "type": "RTD",
+    "round": "2 (10), 3:00",
+    "date": "25 Nov 2011",
+    "location": "Coliseo Teo Cruz, Santo Domingo, Dominican Republic",
+    "notes": ""
+  },
+  {
+    "number": 13,
+    "result": "Win",
+    "record": "13–0",
+    "opponent": "Arron Lyons",
+    "type": "RTD",
+    "round": "7 (10), 3:00",
+    "date": "12 Aug 2011",
+    "location": "Hard Rock Live, Hollywood, Florida, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 12,
+    "result": "Win",
+    "record": "12–0",
+    "opponent": "Henry Saenz",
+    "type": "TKO",
+    "round": "3 (11)",
+    "date": "30 Jul 2011",
+    "location": "Gimnasio Nacional, San José, Costa Rica",
+    "notes": "Retained WBA Fedelatin heavyweight title"
+  },
+  {
+    "number": 11,
+    "result": "Win",
+    "record": "11–0",
+    "opponent": "Luis Andres Pineda",
+    "type": "KO",
+    "round": "6 (9), 1:43",
+    "date": "17 Jun 2011",
+    "location": "Roberto Durán Arena, Panama City, Panama",
+    "notes": "Retained WBC FECARBOX heavyweight title;Won vacant WBA Fedelatin heavyweight title"
+  },
+  {
+    "number": 10,
+    "result": "Win",
+    "record": "10–0",
+    "opponent": "Jason Barnett",
+    "type": "KO",
+    "round": "1 (6), 2:38",
+    "date": "3 Jun 2011",
+    "location": "A La Carte Event Pavilion, Tampa, Florida, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 9,
+    "result": "Win",
+    "record": "9–0",
+    "opponent": "Corey Winfield",
+    "type": "KO",
+    "round": "3 (8), 2:28",
+    "date": "21 May 2011",
+    "location": "Recreation Center, Wilson, North Carolina, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 8,
+    "result": "Win",
+    "record": "8–0",
+    "opponent": "Bert Cooper",
+    "type": "TKO",
+    "round": "2 (10), 1:29",
+    "date": "23 Apr 2011",
+    "location": "County Fair & Exposition, Miami, Florida, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 7,
+    "result": "Win",
+    "record": "7–0",
+    "opponent": "Jerry Butler",
+    "type": "TKO",
+    "round": "3 (6), 1:40",
+    "date": "2 Apr 2011",
+    "location": "Roger Dean Stadium, Jupiter, Florida, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 6,
+    "result": "Win",
+    "record": "6–0",
+    "opponent": "Ruben Rivera",
+    "type": "DQ",
+    "round": "5 (8), 2:50",
+    "date": "28 Jan 2011",
+    "location": "DoubleTree, Tampa, Florida, U.S.",
+    "notes": "Rivera disqualified for low blows"
+  },
+  {
+    "number": 5,
+    "result": "Win",
+    "record": "5–0",
+    "opponent": "Francisco Alvarez",
+    "type": "TKO",
+    "round": "8 (8), 1:27",
+    "date": "7 Dec 2010",
+    "location": "Hard Rock Live, Hollywood, Florida, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 4,
+    "result": "Win",
+    "record": "4–0",
+    "opponent": "Zack Page",
+    "type": "TKO",
+    "round": "8 (8), 0:42",
+    "date": "19 Sep 2010",
+    "location": "Hard Rock Live, Hollywood, Florida, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 3,
+    "result": "Win",
+    "record": "3–0",
+    "opponent": "Kendrick Releford",
+    "type": "UD",
+    "round": "8",
+    "date": "24 Aug 2010",
+    "location": "Hard Rock Live, Hollywood, Florida, U.S.",
+    "notes": "Won vacant WBC FECARBOX heavyweight title"
+  },
+  {
+    "number": 2,
+    "result": "Win",
+    "record": "2–0",
+    "opponent": "Charles Davis",
+    "type": "TKO",
+    "round": "4 (6), 2:20",
+    "date": "15 Jun 2010",
+    "location": "Hard Rock Live, Hollywood, Florida, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 1,
+    "result": "Win",
+    "record": "1–0",
+    "opponent": "Lamar Davis",
+    "type": "TKO",
+    "round": "1 (4), 1:18",
+    "date": "16 Feb 2010",
+    "location": "Hard Rock Live, Hollywood, Florida, U.S.",
+    "notes": ""
+  }
+]
+
+const ruizData = [
+  {
+  "number": 35,
+  "result": "Loss",
+  "record": "33–2",
+  "opponent": "Anthony Joshua",
+  "type": "UD",
+  "round": "12",
+  "date": "Dec 7, 2019",
+  "location": "Diriyah Arena, Diriyah, Saudi Arabia",
+  "notes": "Lost WBA (Super), IBF, WBO, and IBO heavyweight titles"
+  },
+  {
+  "number": 34,
+  "result": "Win",
+  "record": "33–1",
+  "opponent": "Anthony Joshua",
+  "type": "TKO",
+  "round": "7 (12), 1:33",
+  "date": "Jun 1, 2019",
+  "location": "Madison Square Garden, New York City, New York, U.S.",
+  "notes": "Won WBA (Super), IBF, WBO, and IBO heavyweight titles"
+  },
+  {
+  "number": 33,
+  "result": "Win",
+  "record": "32–1",
+  "opponent": "Alexander Dimitrenko",
+  "type": "RTD",
+  "round": "5 (10), 3:00",
+  "date": "Apr 20, 2019",
+  "location": "Dignity Health Sports Park, Carson, California, U.S.",
+  "notes": ""
+  },
+  {
+  "number": 32,
+  "result": "Win",
+  "record": "31–1",
+  "opponent": "Kevin Johnson",
+  "type": "UD",
+  "round": "10",
+  "date": "Jul 7, 2018",
+  "location": "Save Mart Center, Fresno, California, U.S.",
+  "notes": ""
+  },
+  {
+  "number": 31,
+  "result": "Win",
+  "record": "30–1",
+  "opponent": "Devin Vargas",
+  "type": "KO",
+  "round": "1 (8), 1:38",
+  "date": "Mar 10, 2018",
+  "location": "StubHub Center, Carson, California, U.S.",
+  "notes": ""
+  },
+  {
+  "number": 30,
+  "result": "Loss",
+  "record": "29–1",
+  "opponent": "Joseph Parker",
+  "type": "MD",
+  "round": "12",
+  "date": "Dec 10, 2016",
+  "location": "Vector Arena, Auckland, New Zealand",
+  "notes": "For vacant WBO heavyweight title"
+  },
+  {
+  "number": 29,
+  "result": "Win",
+  "record": "29–0",
+  "opponent": "Franklin Lawrence",
+  "type": "UD",
+  "round": "10",
+  "date": "Sep 10, 2016",
+  "location": "Tachi Palace Hotel & Casino, Lemoore, California, U.S.",
+  "notes": "Retained WBC-NABF heavyweight title"
+  },
+  {
+  "number": 28,
+  "result": "Win",
+  "record": "28–0",
+  "opponent": "Josh Gormley",
+  "type": "TKO",
+  "round": "3 (10), 1:42",
+  "date": "Jul 16, 2016",
+  "location": "Masonic Temple, Detroit, Michigan, U.S.",
+  "notes": ""
+  },
+  {
+  "number": 27,
+  "result": "Win",
+  "record": "27–0",
+  "opponent": "Ray Austin",
+  "type": "RTD",
+  "round": "4 (8), 3:00",
+  "date": "May 14, 2016",
+  "location": "Sportsmen's Lodge, Studio City, California, U.S.",
+  "notes": "Retained WBC-NABF heavyweight title"
+  },
+  {
+  "number": 26,
+  "result": "Win",
+  "record": "26–0",
+  "opponent": "Raphael Zumbano Love",
+  "type": "UD",
+  "round": "8",
+  "date": "Oct 24, 2015",
+  "location": "CenturyLink Center, Omaha, Nebraska, U.S.",
+  "notes": ""
+  },
+  {
+  "number": 25,
+  "result": "Win",
+  "record": "25–0",
+  "opponent": "Joell Godfrey",
+  "type": "UD",
+  "round": "8",
+  "date": "Sep 26, 2015",
+  "location": "Tachi Palace Hotel & Casino, Lemoore, California, U.S.",
+  "notes": "Retained WBC-NABF heavyweight title"
+  },
+  {
+  "number": 24,
+  "result": "Win",
+  "record": "24–0",
+  "opponent": "Siarhei Liakhovich",
+  "type": "UD",
+  "round": "10",
+  "date": "Dec 20, 2014",
+  "location": "Celebrity Theatre, Phoenix, Arizona, U.S.",
+  "notes": "Retained WBO Inter-Continental and WBC-NABF heavyweight titles"
+  },
+  {
+  "number": 23,
+  "result": "Win",
+  "record": "23–0",
+  "opponent": "Kenny Lemos",
+  "type": "TKO",
+  "round": "1 (8), 2:18",
+  "date": "Oct 25, 2014",
+  "location": "Selland Arena, Fresno, California, U.S.",
+  "notes": ""
+  },
+  {
+  "number": 22,
+  "result": "Win",
+  "record": "22–0",
+  "opponent": "Manuel Quezada",
+  "type": "TKO",
+  "round": "2 (10), 2:00",
+  "date": "May 17, 2014",
+  "location": "Selland Arena, Fresno, California, U.S.",
+  "notes": "Retained WBO Inter-Continental and WBC-NABF heavyweight titles"
+  },
+  {
+  "number": 21,
+  "result": "Win",
+  "record": "21–0",
+  "opponent": "Tor Hamer",
+  "type": "RTD",
+  "round": "3 (10), 3:00",
+  "date": "Nov 23, 2013",
+  "location": "Cotai Arena, Macau, SAR",
+  "notes": "Retained WBO Inter-Continental heavyweight title;Won vacant WBC-NABF heavyweight title"
+  },
+  {
+  "number": 20,
+  "result": "Win",
+  "record": "20–0",
+  "opponent": "Joe Hanks",
+  "type": "TKO",
+  "round": "4 (10), 1:41",
+  "date": "Jul 27, 2013",
+  "location": "Cotai Arena, Macau, SAR",
+  "notes": "Won vacant WBO Inter-Continental heavyweight title"
+  },
+  {
+  "number": 19,
+  "result": "Win",
+  "record": "19–0",
+  "opponent": "Carl Davis",
+  "type": "TKO",
+  "round": "1 (8), 0:35",
+  "date": "Jun 8, 2013",
+  "location": "The Joint, Paradise, Nevada, U.S.",
+  "notes": ""
+  },
+  {
+  "number": 18,
+  "result": "Win",
+  "record": "18–0",
+  "opponent": "Matthew Greer",
+  "type": "KO",
+  "round": "1 (8), 2:53",
+  "date": "Mar 16, 2013",
+  "location": "Home Depot Center, Carson, California, U.S.",
+  "notes": ""
+  },
+  {
+  "number": 17,
+  "result": "Win",
+  "record": "17–0",
+  "opponent": "Elijah McCall",
+  "type": "TKO",
+  "round": "3 (8), 2:59",
+  "date": "Dec 7, 2012",
+  "location": "Texas Station, North Las Vegas, Nevada, U.S.",
+  "notes": ""
+  },
+  {
+  "number": 16,
+  "result": "Win",
+  "record": "16–0",
+  "opponent": "Maurenzo Smith",
+  "type": "KO",
+  "round": "1 (8), 2:11",
+  "date": "Sep 13, 2012",
+  "location": "The Joint, Paradise, Nevada, U.S.",
+  "notes": ""
+  },
+  {
+  "number": 15,
+  "result": "Win",
+  "record": "15–0",
+  "opponent": "Jonte Willis",
+  "type": "TKO",
+  "round": "8 (8), 0:54",
+  "date": "Jul 7, 2012",
+  "location": "Home Depot Center, Carson, California, U.S.",
+  "notes": ""
+  },
+  {
+  "number": 14,
+  "result": "Win",
+  "record": "14–0",
+  "opponent": "Homero Fonseca",
+  "type": "UD",
+  "round": "8",
+  "date": "Mar 23, 2012",
+  "location": "Casino Del Sol, Tucson, Arizona, U.S.",
+  "notes": ""
+  },
+  {
+  "number": 13,
+  "result": "Win",
+  "record": "13–0",
+  "opponent": "Theron Johnson",
+  "type": "UD",
+  "round": "6",
+  "date": "Dec 17, 2011",
+  "location": "WinStar World Casino, Thackerville, Oklahoma, U.S.",
+  "notes": ""
+  },
+  {
+  "number": 12,
+  "result": "Win",
+  "record": "12–0",
+  "opponent": "Ken Frank",
+  "type": "TKO",
+  "round": "2 (6), 1:53",
+  "date": "Sep 17, 2011",
+  "location": "BlueWater Resort & Casino, Parker, Arizona, U.S.",
+  "notes": ""
+  },
+  {
+  "number": 11,
+  "result": "Win",
+  "record": "11–0",
+  "opponent": "Villi Bloomfield",
+  "type": "TKO",
+  "round": "4 (4), 2:04",
+  "date": "Jul 15, 2011",
+  "location": "Texas Station, North Las Vegas, Nevada, U.S.",
+  "notes": ""
+  },
+  {
+  "number": 10,
+  "result": "Win",
+  "record": "10–0",
+  "opponent": "Angel Herrera",
+  "type": "UD",
+  "round": "6",
+  "date": "Apr 23, 2011",
+  "location": "WinStar World Casino, Thackerville, Oklahoma, U.S.",
+  "notes": ""
+  },
+  {
+  "number": 9,
+  "result": "Win",
+  "record": "9–0",
+  "opponent": "Alvaro Morales",
+  "type": "UD",
+  "round": "6",
+  "date": "Feb 26, 2011",
+  "location": "Pearl Concert Theater, Paradise, Nevada, U.S.",
+  "notes": ""
+  },
+  {
+  "number": 8,
+  "result": "Win",
+  "record": "8–0",
+  "opponent": "Kelsey Arnold",
+  "type": "KO",
+  "round": "3 (6), 2:19",
+  "date": "Feb 5, 2011",
+  "location": "Maywood Center, Maywood, California, U.S.",
+  "notes": ""
+  },
+  {
+  "number": 7,
+  "result": "Win",
+  "record": "7–0",
+  "opponent": "Francisco Diaz",
+  "type": "KO",
+  "round": "2 (4), 1:08",
+  "date": "Dec 4, 2010",
+  "location": "Honda Center, Anaheim, California, U.S.",
+  "notes": ""
+  },
+  {
+  "number": 6,
+  "result": "Win",
+  "record": "6–0",
+  "opponent": "Raymond Lopez",
+  "type": "UD",
+  "round": "4",
+  "date": "Nov 20, 2010",
+  "location": "WinStar World Casino, Thackerville, Oklahoma, U.S.",
+  "notes": ""
+  },
+  {
+  "number": 5,
+  "result": "Win",
+  "record": "5–0",
+  "opponent": "Miles Kelly",
+  "type": "TKO",
+  "round": "1 (4), 1:06",
+  "date": "Oct 16, 2010",
+  "location": "Silverton Las Vegas, Enterprise, Nevada, U.S.",
+  "notes": ""
+  },
+  {
+  "number": 4,
+  "result": "Win",
+  "record": "4–0",
+  "opponent": "Luke Vaughn",
+  "type": "KO",
+  "round": "1 (4), 1:55",
+  "date": "Mar 12, 2010",
+  "location": "Gaylord Texan Resort Hotel & Convention Center, Grapevine, Texas, U.S.",
+  "notes": ""
+  },
+  {
+  "number": 3,
+  "result": "Win",
+  "record": "3–0",
+  "opponent": "Juan Luis Lopez Alcaraz",
+  "type": "UD",
+  "round": "4",
+  "date": "Feb 12, 2010",
+  "location": "Gimnasio Municipal, Mexicali, Mexico",
+  "notes": ""
+  },
+  {
+  "number": 2,
+  "result": "Win",
+  "record": "2–0",
+  "opponent": "Ross Brantley",
+  "type": "TKO",
+  "round": "1 (6), 1:37",
+  "date": "Jun 26, 2009",
+  "location": "Plaza de toros Calafia, Mexicali, Mexico",
+  "notes": ""
+  },
+  {
+  "number": 1,
+  "result": "Win",
+  "record": "1–0",
+  "opponent": "Miguel Ramirez",
+  "type": "KO",
+  "round": "1 (4), 0:34",
+  "date": "Mar 28, 2009",
+  "location": "Bullring by the Sea, Tijuana, Mexico",
+  "notes": ""
+  }
+]
+
+const usykData = [
+  {
+    "number": 17,
+    "result": "Win",
+    "record": "17–0",
+    "opponent": "Chazz Witherspoon",
+    "type": "RTD",
+    "round": "7 (12), 3:00",
+    "date": "12 Oct 2019",
+    "location": "Wintrust Arena, Chicago, Illinois U.S.",
+    "notes": ""
+  },
+  {
+    "number": 16,
+    "result": "Win",
+    "record": "16–0",
+    "opponent": "Tony Bellew",
+    "type": "KO",
+    "round": "8 (12), 2:00",
+    "date": "10 Nov 2018",
+    "location": "Manchester Arena, Manchester, England",
+    "notes": "Retained WBA (Super), WBC, IBF, WBO, The Ring, and lineal cruiserweight titles"
+  },
+  {
+    "number": 15,
+    "result": "Win",
+    "record": "15–0",
+    "opponent": "Murat Gassiev",
+    "type": "UD",
+    "round": "12",
+    "date": "21 Jul 2018",
+    "location": "Olympic Stadium, Moscow, Russia",
+    "notes": "Retained WBC and WBO cruiserweight titles;Won WBA (Super), IBF, vacant The Ring and lineal cruiserweight titles;World Boxing Super Series: cruiserweight final"
+  },
+  {
+    "number": 14,
+    "result": "Win",
+    "record": "14–0",
+    "opponent": "Mairis Briedis",
+    "type": "MD",
+    "round": "12",
+    "date": "18 Jan 2018",
+    "location": "Arēna Rīga, Riga, Latvia",
+    "notes": "Retained WBO cruiserweight title;Won WBC cruiserweight title;World Boxing Super Series: cruiserweight semi-final"
+  },
+  {
+    "number": 13,
+    "result": "Win",
+    "record": "13–0",
+    "opponent": "Marco Huck",
+    "type": "TKO",
+    "round": "10 (12), 2:12",
+    "date": "9 Sep 2017",
+    "location": "Max-Schmeling-Halle, Berlin, Germany",
+    "notes": "Retained WBO cruiserweight title;World Boxing Super Series: cruiserweight quarter-final"
+  },
+  {
+    "number": 12,
+    "result": "Win",
+    "record": "12–0",
+    "opponent": "Michael Hunter",
+    "type": "UD",
+    "round": "12",
+    "date": "8 Apr 2017",
+    "location": "MGM National Harbor, Oxon Hill, Maryland U.S.",
+    "notes": "Retained WBO cruiserweight title"
+  },
+  {
+    "number": 11,
+    "result": "Win",
+    "record": "11–0",
+    "opponent": "Thabiso Mchunu",
+    "type": "TKO",
+    "round": "9 (12), 1:53",
+    "date": "17 Dec 2016",
+    "location": "The Forum, Inglewood, California, U.S.",
+    "notes": "Retained WBO cruiserweight title"
+  },
+  {
+    "number": 10,
+    "result": "Win",
+    "record": "10–0",
+    "opponent": "Krzysztof Głowacki",
+    "type": "UD",
+    "round": "12",
+    "date": "17 Sep 2016",
+    "location": "Ergo Arena, Gdańsk, Poland",
+    "notes": "Won WBO cruiserweight title"
+  },
+  {
+    "number": 9,
+    "result": "Win",
+    "record": "9–0",
+    "opponent": "Pedro Rodriguez",
+    "type": "TKO",
+    "round": "7 (12), 1:57",
+    "date": "12 Dec 2015",
+    "location": "Palace of Sports, Kiev, Ukraine",
+    "notes": "Retained WBO Inter-Continental cruiserweight title"
+  },
+  {
+    "number": 8,
+    "result": "Win",
+    "record": "8–0",
+    "opponent": "Johnny Muller",
+    "type": "TKO",
+    "round": "3 (12), 2:59",
+    "date": "29 Aug 2015",
+    "location": "Palace of Sports, Kiev, Ukraine",
+    "notes": "Retained WBO Inter-Continental cruiserweight title"
+  },
+  {
+    "number": 7,
+    "result": "Win",
+    "record": "7–0",
+    "opponent": "Andrey Knyazev",
+    "type": "TKO",
+    "round": "8 (10), 2:24",
+    "date": "18 Apr 2015",
+    "location": "Palace of Sports, Kiev, Ukraine",
+    "notes": "Retained WBO Inter-Continental cruiserweight title"
+  },
+  {
+    "number": 6,
+    "result": "Win",
+    "record": "6–0",
+    "opponent": "Danie Venter",
+    "type": "TKO",
+    "round": "9 (10), 2:29",
+    "date": "13 Dec 2014",
+    "location": "Palace of Sports, Kiev, Ukraine",
+    "notes": "Retained WBO Inter-Continental cruiserweight title"
+  },
+  {
+    "number": 5,
+    "result": "Win",
+    "record": "5–0",
+    "opponent": "Daniel Bruwer",
+    "type": "TKO",
+    "round": "7 (10), 2:55",
+    "date": "4 Oct 2014",
+    "location": "Arena Lviv, Lviv, Ukraine",
+    "notes": "Won WBO Inter-Continental interim cruiserweight title"
+  },
+  {
+    "number": 4,
+    "result": "Win",
+    "record": "4–0",
+    "opponent": "Cesar David Crenz",
+    "type": "KO",
+    "round": "4 (8), 2:19",
+    "date": "31 May 2014",
+    "location": "Sports Palace, Odessa, Ukraine",
+    "notes": ""
+  },
+  {
+    "number": 3,
+    "result": "Win",
+    "record": "3–0",
+    "opponent": "Ben Nsafoah",
+    "type": "KO",
+    "round": "3 (8), 1:43",
+    "date": "26 Apr 2014",
+    "location": "König Pilsener Arena, Oberhausen, Germany",
+    "notes": ""
+  },
+  {
+    "number": 2,
+    "result": "Win",
+    "record": "2–0",
+    "opponent": "Epifanio Mendoza",
+    "type": "TKO",
+    "round": "4 (6), 2:10",
+    "date": "7 Dec 2013",
+    "location": "Ice Arena TEC Terminal, Brovary, Ukraine",
+    "notes": ""
+  },
+  {
+    "number": 1,
+    "result": "Win",
+    "record": "1–0",
+    "opponent": "Felipe Romero",
+    "type": "TKO",
+    "round": "5 (6), 1:36",
+    "date": "11 Sep 2013",
+    "location": "Palace of Sports, Kiev, Ukraine",
+    "notes": ""
+  }
+]
+
+const pulevData = [
+  {
+    "number": 29,
+    "result": "Win",
+    "record": "28–1",
+    "opponent": "Rydell Booker",
+    "type": "UD",
+    "round": "10",
+    "date": "9 Nov 2019",
+    "location": "Chukchansi Park, Fresno, California, U.S.",
+    "notes": ""
+  },
+  {
+    "number": 28,
+    "result": "Win",
+    "record": "27–1",
+    "opponent": "Bogdan Dinu",
+    "type": "KO",
+    "round": "7 (10), 2:40",
+    "date": "23 Mar 2019",
+    "location": "The Hangar, Costa Mesa, California, US",
+    "notes": ""
+  },
+  {
+    "number": 27,
+    "result": "Win",
+    "record": "26–1",
+    "opponent": "Hughie Fury",
+    "type": "UD",
+    "round": "12",
+    "date": "27 Oct 2018",
+    "location": "Arena Armeec, Sofia, Bulgaria",
+    "notes": ""
+  },
+  {
+    "number": 26,
+    "result": "Win",
+    "record": "25–1",
+    "opponent": "Kevin Johnson",
+    "type": "UD",
+    "round": "12",
+    "date": "28 Apr 2017",
+    "location": "Arena Armeec, Sofia, Bulgaria",
+    "notes": "Retained WBA Inter-Continental heavyweight title"
+  },
+  {
+    "number": 25,
+    "result": "Win",
+    "record": "24–1",
+    "opponent": "Samuel Peter",
+    "type": "RTD",
+    "round": "3 (12), 3:00",
+    "date": "3 Dec 2016",
+    "location": "Arena Armeec, Sofia, Bulgaria",
+    "notes": "Won vacant WBA Inter-Continental heavyweight title"
+  },
+  {
+    "number": 24,
+    "result": "Win",
+    "record": "23–1",
+    "opponent": "Dereck Chisora",
+    "type": "SD",
+    "round": "12",
+    "date": "7 May 2016",
+    "location": "Barclaycard Arena, Hamburg, Germany",
+    "notes": "Won vacant European heavyweight title"
+  },
+  {
+    "number": 23,
+    "result": "Win",
+    "record": "22–1",
+    "opponent": "Maurice Harris",
+    "type": "KO",
+    "round": "1 (8), 1:59",
+    "date": "5 Dec 2015",
+    "location": "Inselparkhalle Wilhelmsburg, Hamburg, Germany",
+    "notes": ""
+  },
+  {
+    "number": 22,
+    "result": "Win",
+    "record": "21–1",
+    "opponent": "George Arias",
+    "type": "UD",
+    "round": "8",
+    "date": "17 Oct 2015",
+    "location": "Max-Schmeling-Halle, Berlin, Germany",
+    "notes": ""
+  },
+  {
+    "number": 21,
+    "result": "Loss",
+    "record": "20–1",
+    "opponent": "Wladimir Klitschko",
+    "type": "KO",
+    "round": "5 (12), 2:11",
+    "date": "15 Nov 2014",
+    "location": "O2 World, Hamburg, Germany",
+    "notes": "For IBF, The Ring, and lineal heavyweight titles"
+  },
+  {
+    "number": 20,
+    "result": "Win",
+    "record": "20–0",
+    "opponent": "Ivica Perkovic",
+    "type": "RTD",
+    "round": "3 (8), 3:00",
+    "date": "5 Apr 2014",
+    "location": "StadtHalle, Rostock, Germany",
+    "notes": ""
+  },
+  {
+    "number": 19,
+    "result": "Win",
+    "record": "19–0",
+    "opponent": "Joey Abell",
+    "type": "RTD",
+    "round": "4 (12), 3:00",
+    "date": "14 Dec 2013",
+    "location": "Jahnsportforum, Neubrandenburg, Germany",
+    "notes": "Retained IBF International heavyweight title"
+  },
+  {
+    "number": 18,
+    "result": "Win",
+    "record": "18–0",
+    "opponent": "Tony Thompson",
+    "type": "UD",
+    "round": "12",
+    "date": "24 Aug 2013",
+    "location": "Sport Center, Schwerin, Germany",
+    "notes": "Retained IBF International heavyweight title"
+  },
+  {
+    "number": 17,
+    "result": "Win",
+    "record": "17–0",
+    "opponent": "Alexander Ustinov",
+    "type": "KO",
+    "round": "11 (12), 1:28",
+    "date": "29 Sep 2012",
+    "location": "Alsterdorfer Sporthalle, Hamburg, Germany",
+    "notes": "Retained IBF International and European heavyweight titles"
+  },
+  {
+    "number": 16,
+    "result": "Win",
+    "record": "16–0",
+    "opponent": "Alexander Dimitrenko",
+    "type": "KO",
+    "round": "11 (12), 2:59",
+    "date": "5 May 2012",
+    "location": "Messe, Erfurt, Germany",
+    "notes": "Retained IBF International heavyweight title;Won vacant European heavyweight title"
+  },
+  {
+    "number": 15,
+    "result": "Win",
+    "record": "15–0",
+    "opponent": "Michael Sprott",
+    "type": "RTD",
+    "round": "9 (12), 3:00",
+    "date": "14 Jan 2012",
+    "location": "Baden-Arena, Offenburg, Germany",
+    "notes": "Retained IBF International heavyweight title"
+  },
+  {
+    "number": 14,
+    "result": "Win",
+    "record": "14–0",
+    "opponent": "Travis Walker",
+    "type": "UD",
+    "round": "12",
+    "date": "22 Oct 2011",
+    "location": "Arena Ludwigsburg, Ludwigsburg, Germany",
+    "notes": "Won vacant IBF International heavyweight title"
+  },
+  {
+    "number": 13,
+    "result": "Win",
+    "record": "13–0",
+    "opponent": "Maksym Pediura",
+    "type": "UD",
+    "round": "8",
+    "date": "16 Jul 2011",
+    "location": "Olympia Eishalle, Munich, Germany",
+    "notes": ""
+  },
+  {
+    "number": 12,
+    "result": "Win",
+    "record": "12–0",
+    "opponent": "Derric Rossy",
+    "type": "TKO",
+    "round": "5 (8), 2:15",
+    "date": "7 May 2011",
+    "location": "Koncerthuset, Copenhagen, Denmark",
+    "notes": ""
+  },
+  {
+    "number": 11,
+    "result": "Win",
+    "record": "11–0",
+    "opponent": "Yaroslav Zavorotnyi",
+    "type": "UD",
+    "round": "8",
+    "date": "12 Feb 2011",
+    "location": "MCH Arena, Herning, Denmark",
+    "notes": ""
+  },
+  {
+    "number": 10,
+    "result": "Win",
+    "record": "10–0",
+    "opponent": "Paolo Vidoz",
+    "type": "UD",
+    "round": "8",
+    "date": "18 Dec 2010",
+    "location": "Max-Schmeling-Halle, Berlin, Germany",
+    "notes": ""
+  },
+  {
+    "number": 9,
+    "result": "Win",
+    "record": "9–0",
+    "opponent": "Dominick Guinn",
+    "type": "UD",
+    "round": "8",
+    "date": "30 Oct 2010",
+    "location": "StadtHalle, Rostock, Germany",
+    "notes": ""
+  },
+  {
+    "number": 8,
+    "result": "Win",
+    "record": "8–0",
+    "opponent": "Evgeny Orlov",
+    "type": "DQ",
+    "round": "7 (8), 0:16",
+    "date": "1 May 2010",
+    "location": "Weser-Ems-Halle, Oldenburg, Germany",
+    "notes": "Orlov disqualified for rabbit punching"
+  },
+  {
+    "number": 7,
+    "result": "Win",
+    "record": "7–0",
+    "opponent": "Danny Batchelder",
+    "type": "TKO",
+    "round": "2 (8), 0:45",
+    "date": "13 Mar 2010",
+    "location": "Max-Schmeling-Halle, Berlin, Germany",
+    "notes": ""
+  },
+  {
+    "number": 6,
+    "result": "Win",
+    "record": "6–0",
+    "opponent": "Isossa Mondo",
+    "type": "RTD",
+    "round": "3 (8), 3:00",
+    "date": "20 Feb 2010",
+    "location": "Hall omnisports \"La Préalle\", Liège, Belgium",
+    "notes": ""
+  },
+  {
+    "number": 5,
+    "result": "Win",
+    "record": "5–0",
+    "opponent": "Matt Skelton",
+    "type": "KO",
+    "round": "4 (8), 2:14",
+    "date": "30 Jan 2010",
+    "location": "Jahnsportforum, Neubrandenburg, Germany",
+    "notes": ""
+  },
+  {
+    "number": 4,
+    "result": "Win",
+    "record": "4–0",
+    "opponent": "Zack Page",
+    "type": "UD",
+    "round": "6",
+    "date": "5 Dec 2009",
+    "location": "Arena Ludwigsburg, Ludwigsburg, Germany",
+    "notes": ""
+  },
+  {
+    "number": 3,
+    "result": "Win",
+    "record": "3–0",
+    "opponent": "Gbenga Oloukun",
+    "type": "UD",
+    "round": "6",
+    "date": "7 Nov 2009",
+    "location": "Nuremberg Arena, Nuremberg, Germany",
+    "notes": ""
+  },
+  {
+    "number": 2,
+    "result": "Win",
+    "record": "2–0",
+    "opponent": "Serdar Uysal",
+    "type": "TKO",
+    "round": "4 (4), 0:56",
+    "date": "17 Oct 2009",
+    "location": "O2 World, Berlin, Germany",
+    "notes": ""
+  },
+  {
+    "number": 1,
+    "result": "Win",
+    "record": "1–0",
+    "opponent": "Florian Benche",
+    "type": "TKO",
+    "round": "2 (4), 2:05",
+    "date": "19 Sep 2009",
+    "location": "Jahnsportforum, Neubrandenburg, Germany",
+    "notes": ""
+  }
+]
 
 
 const makeChartData = (data) => {
@@ -1382,7 +3577,6 @@ const makeChartData = (data) => {
     let bout = new Object()
     let d = new Date(el.date)
     let r = el.record
-      // .trimRight()
     r = r.substring(2, r.indexOf('-'))
     bout = {
       t: d.toString().slice(4, 15),
@@ -1393,9 +3587,9 @@ const makeChartData = (data) => {
   console.log(chartData)
 }
 
-makeChartData(whyteData)
+// makeChartData(pulevData)
 
-const data = [
+const chisoraChartdata = [
 {t: "Oct 26 2019", y: "32"},
 {t: "Jul 20 2019", y: "31"},
 {t: "Apr 20 2019", y: "30"},
@@ -1436,10 +3630,11 @@ const data = [
 {t: "Jan 12 2008", y: "4"},
 {t: "Oct 13 2007", y: "3"},
 {t: "Apr 07 2007", y: "2"},
-{t: "Feb 17 2007", y: "1"}
+{t: "Feb 17 2007", y: "1"},
+{t: "Feb 17 2007", y: "0"}
 ]
 
-const data2 = [
+const furyChartData = [
 {t: "Feb 22 2020", y: "30"},
 {t: "Sep 14 2019", y: "29"},
 {t: "Jun 15 2019", y: "28"},
@@ -1470,10 +3665,11 @@ const data2 = [
 {t: "Mar 14 2009", y: "4"},
 {t: "Feb 28 2009", y: "3"},
 {t: "Jan 17 2009", y: "2"},
-{t: "Dec 06 2008", y: "1"}
+{t: "Dec 06 2008", y: "1"},
+{t: "Dec 06 2008", y: "0"}
 ]
 
-const data3 = [
+const joshuaChartData = [
 {t: "Dec 07 2019", y: "23"},
 {t: "Jun 01 2019", y: "22"},
 {t: "Sep 22 2018", y: "22"},
@@ -1497,10 +3693,11 @@ const data3 = [
 {t: "Feb 01 2014", y: "4"},
 {t: "Nov 14 2013", y: "3"},
 {t: "Oct 26 2013", y: "2"},
-{t: "Oct 05 2013", y: "1"}
+{t: "Oct 05 2013", y: "1"},
+{t: "Oct 05 2013", y: "0"}
 ]
 
-const data4 = [
+const whyteChartData = [
 {t: "Dec 07 2019", y: "27"},
 {t: "Jul 20 2019", y: "26"},
 {t: "Dec 22 2018", y: "25"},
@@ -1528,7 +3725,230 @@ const data4 = [
 {t: "Jan 21 2012", y: "4"},
 {t: "Dec 03 2011", y: "3"},
 {t: "Sep 16 2011", y: "2"},
-{t: "May 13 2011", y: "1"}
+{t: "May 13 2011", y: "1"},
+{t: "May 13 2011", y: "0"}
+]
+
+const wilderChartData = [
+{t: "Feb 22 2020", y: "42"},
+{t: "Nov 23 2019", y: "42"},
+{t: "May 18 2019", y: "41"},
+{t: "Dec 01 2018", y: "40"},
+{t: "Mar 03 2018", y: "40"},
+{t: "Nov 04 2017", y: "39"},
+{t: "Feb 25 2017", y: "38"},
+{t: "Jul 16 2016", y: "37"},
+{t: "Jan 16 2016", y: "36"},
+{t: "Sep 26 2015", y: "35"},
+{t: "Jun 13 2015", y: "34"},
+{t: "Jan 17 2015", y: "33"},
+{t: "Aug 16 2014", y: "32"},
+{t: "Mar 15 2014", y: "31"},
+{t: "Oct 26 2013", y: "30"},
+{t: "Aug 09 2013", y: "29"},
+{t: "Apr 27 2013", y: "28"},
+{t: "Jan 19 2013", y: "27"},
+{t: "Dec 15 2012", y: "26"},
+{t: "Sep 08 2012", y: "25"},
+{t: "Aug 04 2012", y: "24"},
+{t: "Jun 23 2012", y: "23"},
+{t: "May 26 2012", y: "22"},
+{t: "Feb 25 2012", y: "21"},
+{t: "Nov 26 2011", y: "20"},
+{t: "Nov 05 2011", y: "19"},
+{t: "Aug 27 2011", y: "18"},
+{t: "Jun 18 2011", y: "17"},
+{t: "May 06 2011", y: "16"},
+{t: "Feb 19 2011", y: "15"},
+{t: "Dec 02 2010", y: "14"},
+{t: "Oct 15 2010", y: "13"},
+{t: "Sep 25 2010", y: "12"},
+{t: "Jul 03 2010", y: "11"},
+{t: "Apr 30 2010", y: "10"},
+{t: "Apr 02 2010", y: "9"},
+{t: "Nov 28 2009", y: "8"},
+{t: "Aug 14 2009", y: "7"},
+{t: "Jun 26 2009", y: "6"},
+{t: "May 23 2009", y: "5"},
+{t: "Apr 24 2009", y: "4"},
+{t: "Mar 14 2009", y: "3"},
+{t: "Mar 06 2009", y: "2"},
+{t: "Nov 15 2008", y: "1"},
+{t: "Nov 15 2008", y: "0"}
+]
+
+const povetkinChartData = [
+{t: "Dec 07 2019", y: "35"},
+{t: "Aug 31 2019", y: "35"},
+{t: "Sep 22 2018", y: "34"},
+{t: "Mar 31 2018", y: "34"},
+{t: "Dec 15 2017", y: "33"},
+{t: "Jul 01 2017", y: "32"},
+{t: "Dec 17 2016", y: "31"},
+{t: "Nov 04 2015", y: "30"},
+{t: "May 22 2015", y: "29"},
+{t: "Oct 24 2014", y: "28"},
+{t: "May 30 2014", y: "27"},
+{t: "Oct 05 2013", y: "26"},
+{t: "May 17 2013", y: "26"},
+{t: "Sep 29 2012", y: "25"},
+{t: "Feb 25 2012", y: "24"},
+{t: "Dec 03 2011", y: "23"},
+{t: "Aug 27 2011", y: "22"},
+{t: "Dec 18 2010", y: "21"},
+{t: "Oct 16 2010", y: "20"},
+{t: "Mar 13 2010", y: "19"},
+{t: "Dec 05 2009", y: "18"},
+{t: "Apr 04 2009", y: "17"},
+{t: "Jul 19 2008", y: "16"},
+{t: "Jan 26 2008", y: "15"},
+{t: "Oct 27 2007", y: "14"},
+{t: "Jun 30 2007", y: "13"},
+{t: "May 26 2007", y: "12"},
+{t: "Mar 03 2007", y: "11"},
+{t: "Dec 10 2006", y: "10"},
+{t: "Sep 23 2006", y: "9"},
+{t: "Jun 03 2006", y: "8"},
+{t: "Apr 22 2006", y: "7"},
+{t: "Mar 04 2006", y: "6"},
+{t: "Dec 17 2005", y: "5"},
+{t: "Nov 12 2005", y: "4"},
+{t: "Oct 01 2005", y: "3"},
+{t: "Sep 03 2005", y: "2"},
+{t: "Jun 11 2005", y: "1"},
+{t: "Jun 11 2005", y: "0"}
+]
+
+const ortizChartData = [
+{t: "Nov 23 2019", y: "31"},
+{t: "Mar 02 2019", y: "31"},
+{t: "Dec 01 2018", y: "30"},
+{t: "Jul 28 2018", y: "29"},
+{t: "Mar 03 2018", y: "28"},
+{t: "Dec 08 2017", y: "28"},
+{t: "Dec 10 2016", y: "27"},
+{t: "Nov 12 2016", y: "26"},
+{t: "Mar 05 2016", y: "25"},
+{t: "Dec 19 2015", y: "24"},
+{t: "Oct 17 2015", y: "23"},
+{t: "Jun 20 2015", y: "22"},
+{t: "Sep 11 2014", y: "21"},
+{t: "Apr 03 2014", y: "21"},
+{t: "Nov 26 2013", y: "20"},
+{t: "Jul 20 2013", y: "19"},
+{t: "Nov 16 2012", y: "19"},
+{t: "Nov 09 2012", y: "18"},
+{t: "Sep 30 2012", y: "17"},
+{t: "May 26 2012", y: "16"},
+{t: "Feb 10 2012", y: "15"},
+{t: "Nov 25 2011", y: "14"},
+{t: "Aug 12 2011", y: "13"},
+{t: "Jul 30 2011", y: "12"},
+{t: "Jun 17 2011", y: "11"},
+{t: "Jun 03 2011", y: "10"},
+{t: "May 21 2011", y: "9"},
+{t: "Apr 23 2011", y: "8"},
+{t: "Apr 02 2011", y: "7"},
+{t: "Jan 28 2011", y: "6"},
+{t: "Dec 07 2010", y: "5"},
+{t: "Sep 19 2010", y: "4"},
+{t: "Aug 24 2010", y: "3"},
+{t: "Jun 15 2010", y: "2"},
+{t: "Feb 16 2010", y: "1"},
+{t: "Feb 16 2010", y: "0"}
+]
+
+const ruizChartData = [
+{t: "Dec 07 2019", y: "33"},
+{t: "Jun 01 2019", y: "33"},
+{t: "Apr 20 2019", y: "32"},
+{t: "Jul 07 2018", y: "31"},
+{t: "Mar 10 2018", y: "30"},
+{t: "Dec 10 2016", y: "29"},
+{t: "Sep 10 2016", y: "29"},
+{t: "Jul 16 2016", y: "28"},
+{t: "May 14 2016", y: "27"},
+{t: "Oct 24 2015", y: "26"},
+{t: "Sep 26 2015", y: "25"},
+{t: "Dec 20 2014", y: "24"},
+{t: "Oct 25 2014", y: "23"},
+{t: "May 17 2014", y: "22"},
+{t: "Nov 23 2013", y: "21"},
+{t: "Jul 27 2013", y: "20"},
+{t: "Jun 08 2013", y: "19"},
+{t: "Mar 16 2013", y: "18"},
+{t: "Dec 07 2012", y: "17"},
+{t: "Sep 13 2012", y: "16"},
+{t: "Jul 07 2012", y: "15"},
+{t: "Mar 23 2012", y: "14"},
+{t: "Dec 17 2011", y: "13"},
+{t: "Sep 17 2011", y: "12"},
+{t: "Jul 15 2011", y: "11"},
+{t: "Apr 23 2011", y: "10"},
+{t: "Feb 26 2011", y: "9"},
+{t: "Feb 05 2011", y: "8"},
+{t: "Dec 04 2010", y: "7"},
+{t: "Nov 20 2010", y: "6"},
+{t: "Oct 16 2010", y: "5"},
+{t: "Mar 12 2010", y: "4"},
+{t: "Feb 12 2010", y: "3"},
+{t: "Jun 26 2009", y: "2"},
+{t: "Mar 28 2009", y: "1"},
+{t: "Mar 28 2009", y: "0"}
+]
+
+const usykChartData = [
+{t: "Oct 12 2019", y: "17"},
+{t: "Nov 10 2018", y: "16"},
+{t: "Jul 21 2018", y: "15"},
+{t: "Jan 18 2018", y: "14"},
+{t: "Sep 09 2017", y: "13"},
+{t: "Apr 08 2017", y: "12"},
+{t: "Dec 17 2016", y: "11"},
+{t: "Sep 17 2016", y: "10"},
+{t: "Dec 12 2015", y: "9"},
+{t: "Aug 29 2015", y: "8"},
+{t: "Apr 18 2015", y: "7"},
+{t: "Dec 13 2014", y: "6"},
+{t: "Oct 04 2014", y: "5"},
+{t: "May 31 2014", y: "4"},
+{t: "Apr 26 2014", y: "3"},
+{t: "Dec 07 2013", y: "2"},
+{t: "Sep 11 2013", y: "1"},
+{t: "Sep 11 2013", y: "0"}
+]
+
+const pulevChartData = [
+{t: "Nov 09 2019", y: "28"},
+{t: "Mar 23 2019", y: "27"},
+{t: "Oct 27 2018", y: "26"},
+{t: "Apr 28 2017", y: "25"},
+{t: "Dec 03 2016", y: "24"},
+{t: "May 07 2016", y: "23"},
+{t: "Dec 05 2015", y: "22"},
+{t: "Oct 17 2015", y: "21"},
+{t: "Nov 15 2014", y: "20"},
+{t: "Apr 05 2014", y: "20"},
+{t: "Dec 14 2013", y: "19"},
+{t: "Aug 24 2013", y: "18"},
+{t: "Sep 29 2012", y: "17"},
+{t: "May 05 2012", y: "16"},
+{t: "Jan 14 2012", y: "15"},
+{t: "Oct 22 2011", y: "14"},
+{t: "Jul 16 2011", y: "13"},
+{t: "May 07 2011", y: "12"},
+{t: "Feb 12 2011", y: "11"},
+{t: "Dec 18 2010", y: "10"},
+{t: "Oct 30 2010", y: "9"},
+{t: "May 01 2010", y: "8"},
+{t: "Mar 13 2010", y: "7"},
+{t: "Feb 20 2010", y: "6"},
+{t: "Jan 30 2010", y: "5"},
+{t: "Dec 05 2009", y: "4"},
+{t: "Nov 07 2009", y: "3"},
+{t: "Oct 17 2009", y: "2"},
+{t: "Sep 19 2009", y: "1"},
+{t: "Sep 19 2009", y: "0"}
 ]
 
 const ctx = document.getElementById("myChart").getContext("2d");
@@ -1537,36 +3957,84 @@ const ctx = document.getElementById("myChart").getContext("2d");
     data: {
       datasets: [
         {
-          label: "Dereck Chisora",
+          label: "Chisora",
           backgroundColor: "rgba(255, 99, 132, 0)",
           borderColor: "rgb(255, 99, 132)",
           hoverBorderColor: "blue",
-          data: data,
+          data: chisoraChartdata,
           steppedLine: "after"
         }
         ,
         {
-          label: "Tyson Fury",
+          label: "Fury",
           backgroundColor: "rgba(255, 99, 13, 0)",
           borderColor: "rgb(255, 99, 13)",
           hoverBorderColor: "red",
-          data: data2,
+          data: furyChartData,
           steppedLine: "after"
         },
         {
-          label: "Anthony Joshua",
+          label: "Joshua",
           backgroundColor: "rgba(255, 99, 13, 0)",
           borderColor: "green",
           hoverBorderColor: "green",
-          data: data3,
+          data: joshuaChartData,
           steppedLine: "after"
         },
         {
-          label: "Dillian Whyte",
+          label: "Whyte",
           backgroundColor: "rgba(255, 99, 13, 0)",
           borderColor: "blue",
           hoverBorderColor: "blue",
-          data: data4,
+          data: whyteChartData,
+          steppedLine: "after"
+        },
+        {
+          label: "Wilder",
+          backgroundColor: "rgba(255, 99, 13, 0)",
+          borderColor: "black",
+          hoverBorderColor: "black",
+          data: wilderChartData,
+          steppedLine: "after"
+        },
+        {
+          label: "Povetkin",
+          backgroundColor: "rgba(255, 99, 13, 0)",
+          borderColor: "grey",
+          hoverBorderColor: "grey",
+          data: povetkinChartData,
+          steppedLine: "after"
+        },
+        {
+          label: "Ortiz",
+          backgroundColor: "rgba(255, 99, 13, 0)",
+          borderColor: "lightblue",
+          hoverBorderColor: "lightblue",
+          data: ortizChartData,
+          steppedLine: "after"
+        },
+        {
+          label: "Ruiz Jr.",
+          backgroundColor: "rgba(255, 99, 13, 0)",
+          borderColor: "goldenrod",
+          hoverBorderColor: "goldenrod",
+          data: ruizChartData,
+          steppedLine: "after"
+        },
+        {
+          label: "Usyk",
+          backgroundColor: "rgba(255, 99, 13, 0)",
+          borderColor: "lightgreen",
+          hoverBorderColor: "lightgreen",
+          data: usykChartData,
+          steppedLine: "after"
+        },
+        {
+          label: "Pulev",
+          backgroundColor: "rgba(255, 99, 13, 0)",
+          borderColor: "purple",
+          hoverBorderColor: "purple",
+          data: pulevChartData,
           steppedLine: "after"
         }
       ]
@@ -1596,6 +4064,13 @@ const ctx = document.getElementById("myChart").getContext("2d");
             labelString: 'Wins'
           }
         }]
+      },
+      legend: {
+        display: true,
+        position: 'top',
+        labels: {
+          boxWidth: 40
+        }
       }
     }
   });
