@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.boxer {
+  margin-bottom: 2rem;
+}
+
+.chart-container {
+  width: 600px;
+  height: 600px;
+}

@@ -1,0 +1,189 @@
+[
+  {
+    "Number": 17,
+    "Result": "Win",
+    "Record": "17–0",
+    "Opponent": "Chazz Witherspoon",
+    "Type": "RTD",
+    "Round": "7 (12), 3:00",
+    "Date": "12 Oct 2019",
+    "Location": "Wintrust Arena, Chicago, Illinois U.S.",
+    "Notes": ""
+  },
+  {
+    "Number": 16,
+    "Result": "Win",
+    "Record": "16–0",
+    "Opponent": "Tony Bellew",
+    "Type": "KO",
+    "Round": "8 (12), 2:00",
+    "Date": "10 Nov 2018",
+    "Location": "Manchester Arena, Manchester, England",
+    "Notes": "Retained WBA (Super), WBC, IBF, WBO, The Ring, and lineal cruiserweight titles"
+  },
+  {
+    "Number": 15,
+    "Result": "Win",
+    "Record": "15–0",
+    "Opponent": "Murat Gassiev",
+    "Type": "UD",
+    "Round": "12",
+    "Date": "21 Jul 2018",
+    "Location": "Olympic Stadium, Moscow, Russia",
+    "Notes": "Retained WBC and WBO cruiserweight titles;Won WBA (Super), IBF, vacant The Ring and lineal cruiserweight titles;World Boxing Super Series: cruiserweight final"
+  },
+  {
+    "Number": 14,
+    "Result": "Win",
+    "Record": "14–0",
+    "Opponent": "Mairis Briedis",
+    "Type": "MD",
+    "Round": "12",
+    "Date": "18 Jan 2018",
+    "Location": "Arēna Rīga, Riga, Latvia",
+    "Notes": "Retained WBO cruiserweight title;Won WBC cruiserweight title;World Boxing Super Series: cruiserweight semi-final"
+  },
+  {
+    "Number": 13,
+    "Result": "Win",
+    "Record": "13–0",
+    "Opponent": "Marco Huck",
+    "Type": "TKO",
+    "Round": "10 (12), 2:12",
+    "Date": "9 Sep 2017",
+    "Location": "Max-Schmeling-Halle, Berlin, Germany",
+    "Notes": "Retained WBO cruiserweight title;World Boxing Super Series: cruiserweight quarter-final"
+  },
+  {
+    "Number": 12,
+    "Result": "Win",
+    "Record": "12–0",
+    "Opponent": "Michael Hunter",
+    "Type": "UD",
+    "Round": "12",
+    "Date": "8 Apr 2017",
+    "Location": "MGM National Harbor, Oxon Hill, Maryland U.S.",
+    "Notes": "Retained WBO cruiserweight title"
+  },
+  {
+    "Number": 11,
+    "Result": "Win",
+    "Record": "11–0",
+    "Opponent": "Thabiso Mchunu",
+    "Type": "TKO",
+    "Round": "9 (12), 1:53",
+    "Date": "17 Dec 2016",
+    "Location": "The Forum, Inglewood, California, U.S.",
+    "Notes": "Retained WBO cruiserweight title"
+  },
+  {
+    "Number": 10,
+    "Result": "Win",
+    "Record": "10–0",
+    "Opponent": "Krzysztof Głowacki",
+    "Type": "UD",
+    "Round": "12",
+    "Date": "17 Sep 2016",
+    "Location": "Ergo Arena, Gdańsk, Poland",
+    "Notes": "Won WBO cruiserweight title"
+  },
+  {
+    "Number": 9,
+    "Result": "Win",
+    "Record": "9–0",
+    "Opponent": "Pedro Rodriguez",
+    "Type": "TKO",
+    "Round": "7 (12), 1:57",
+    "Date": "12 Dec 2015",
+    "Location": "Palace of Sports, Kiev, Ukraine",
+    "Notes": "Retained WBO Inter-Continental cruiserweight title"
+  },
+  {
+    "Number": 8,
+    "Result": "Win",
+    "Record": "8–0",
+    "Opponent": "Johnny Muller",
+    "Type": "TKO",
+    "Round": "3 (12), 2:59",
+    "Date": "29 Aug 2015",
+    "Location": "Palace of Sports, Kiev, Ukraine",
+    "Notes": "Retained WBO Inter-Continental cruiserweight title"
+  },
+  {
+    "Number": 7,
+    "Result": "Win",
+    "Record": "7–0",
+    "Opponent": "Andrey Knyazev",
+    "Type": "TKO",
+    "Round": "8 (10), 2:24",
+    "Date": "18 Apr 2015",
+    "Location": "Palace of Sports, Kiev, Ukraine",
+    "Notes": "Retained WBO Inter-Continental cruiserweight title"
+  },
+  {
+    "Number": 6,
+    "Result": "Win",
+    "Record": "6–0",
+    "Opponent": "Danie Venter",
+    "Type": "TKO",
+    "Round": "9 (10), 2:29",
+    "Date": "13 Dec 2014",
+    "Location": "Palace of Sports, Kiev, Ukraine",
+    "Notes": "Retained WBO Inter-Continental cruiserweight title"
+  },
+  {
+    "Number": 5,
+    "Result": "Win",
+    "Record": "5–0",
+    "Opponent": "Daniel Bruwer",
+    "Type": "TKO",
+    "Round": "7 (10), 2:55",
+    "Date": "4 Oct 2014",
+    "Location": "Arena Lviv, Lviv, Ukraine",
+    "Notes": "Won WBO Inter-Continental interim cruiserweight title"
+  },
+  {
+    "Number": 4,
+    "Result": "Win",
+    "Record": "4–0",
+    "Opponent": "Cesar David Crenz",
+    "Type": "KO",
+    "Round": "4 (8), 2:19",
+    "Date": "31 May 2014",
+    "Location": "Sports Palace, Odessa, Ukraine",
+    "Notes": ""
+  },
+  {
+    "Number": 3,
+    "Result": "Win",
+    "Record": "3–0",
+    "Opponent": "Ben Nsafoah",
+    "Type": "KO",
+    "Round": "3 (8), 1:43",
+    "Date": "26 Apr 2014",
+    "Location": "König Pilsener Arena, Oberhausen, Germany",
+    "Notes": ""
+  },
+  {
+    "Number": 2,
+    "Result": "Win",
+    "Record": "2–0",
+    "Opponent": "Epifanio Mendoza",
+    "Type": "TKO",
+    "Round": "4 (6), 2:10",
+    "Date": "7 Dec 2013",
+    "Location": "Ice Arena TEC Terminal, Brovary, Ukraine",
+    "Notes": ""
+  },
+  {
+    "Number": 1,
+    "Result": "Win",
+    "Record": "1–0",
+    "Opponent": "Felipe Romero",
+    "Type": "TKO",
+    "Round": "5 (6), 1:36",
+    "Date": "11 Sep 2013",
+    "Location": "Palace of Sports, Kiev, Ukraine",
+    "Notes": ""
+  }
+]
