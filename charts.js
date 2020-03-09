@@ -3951,6 +3951,8 @@ const pulevChartData = [
 {t: "Sep 19 2009", y: "0"}
 ]
 
+const transparent = "rgba(0, 0, 0, 0)"
+
 const ctx = document.getElementById("myChart").getContext("2d");
   const chart = new Chart(ctx, {
     type: "line",
@@ -3958,88 +3960,80 @@ const ctx = document.getElementById("myChart").getContext("2d");
       datasets: [
         {
           label: "Chisora",
-          backgroundColor: "rgba(255, 99, 132, 0)",
+          backgroundColor: transparent,
           borderColor: "rgb(255, 99, 132)",
-          hoverBorderColor: "blue",
           data: chisoraChartdata,
           steppedLine: "after"
         }
         ,
         {
           label: "Fury",
-          backgroundColor: "rgba(255, 99, 13, 0)",
-          borderColor: "rgb(255, 99, 13)",
-          hoverBorderColor: "red",
+          backgroundColor: transparent,
+          borderColor: "orange",
           data: furyChartData,
           steppedLine: "after"
         },
         {
           label: "Joshua",
-          backgroundColor: "rgba(255, 99, 13, 0)",
+          backgroundColor: transparent,
           borderColor: "green",
-          hoverBorderColor: "green",
           data: joshuaChartData,
           steppedLine: "after"
         },
         {
           label: "Whyte",
-          backgroundColor: "rgba(255, 99, 13, 0)",
+          backgroundColor: transparent,
           borderColor: "blue",
-          hoverBorderColor: "blue",
           data: whyteChartData,
           steppedLine: "after"
         },
         {
           label: "Wilder",
-          backgroundColor: "rgba(255, 99, 13, 0)",
+          backgroundColor: transparent,
           borderColor: "black",
-          hoverBorderColor: "black",
           data: wilderChartData,
           steppedLine: "after"
         },
         {
           label: "Povetkin",
-          backgroundColor: "rgba(255, 99, 13, 0)",
+          backgroundColor: transparent,
           borderColor: "grey",
-          hoverBorderColor: "grey",
           data: povetkinChartData,
           steppedLine: "after"
         },
         {
           label: "Ortiz",
-          backgroundColor: "rgba(255, 99, 13, 0)",
+          backgroundColor: transparent,
           borderColor: "lightblue",
-          hoverBorderColor: "lightblue",
           data: ortizChartData,
           steppedLine: "after"
         },
         {
           label: "Ruiz Jr.",
-          backgroundColor: "rgba(255, 99, 13, 0)",
+          backgroundColor: transparent,
           borderColor: "goldenrod",
-          hoverBorderColor: "goldenrod",
           data: ruizChartData,
           steppedLine: "after"
         },
         {
           label: "Usyk",
-          backgroundColor: "rgba(255, 99, 13, 0)",
+          backgroundColor: transparent,
           borderColor: "lightgreen",
-          hoverBorderColor: "lightgreen",
           data: usykChartData,
           steppedLine: "after"
         },
         {
           label: "Pulev",
-          backgroundColor: "rgba(255, 99, 13, 0)",
+          backgroundColor: transparent,
           borderColor: "purple",
-          hoverBorderColor: "purple",
           data: pulevChartData,
           steppedLine: "after"
         }
       ]
     },
     options: {
+      responsive: true,
+      maintainAspectRatio: false,
       scales: {
         xAxes: [{
           scaleLabel: {
@@ -4062,6 +4056,9 @@ const ctx = document.getElementById("myChart").getContext("2d");
           scaleLabel: {
             display: true,
             labelString: 'Wins'
+          },
+          ticks: {
+            beginAtZero: true
           }
         }]
       },
@@ -4069,16 +4066,12 @@ const ctx = document.getElementById("myChart").getContext("2d");
         display: true,
         position: 'top',
         labels: {
+          fontSize: 20,
           boxWidth: 40
         }
       }
     }
   });
-
-
-
-
-
 
   // const handleChisoraData = (data) => {
 //   let wins = []
