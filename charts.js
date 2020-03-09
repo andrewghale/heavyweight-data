@@ -3951,7 +3951,10 @@ const pulevChartData = [
 {t: "Sep 19 2009", y: "0"}
 ]
 
-const transparent = "rgba(0, 0, 0, 0)"
+
+Chart.Legend.prototype.afterFit = function() {
+  this.height = this.height + 30;
+};
 
 const ctx = document.getElementById("myChart").getContext("2d");
   const chart = new Chart(ctx, {
@@ -3960,7 +3963,8 @@ const ctx = document.getElementById("myChart").getContext("2d");
       datasets: [
         {
           label: "Chisora",
-          backgroundColor: transparent,
+          backgroundColor: "rgb(255, 99, 132)",
+          fill: false,
           borderColor: "rgb(255, 99, 132)",
           data: chisoraChartdata,
           steppedLine: "after"
@@ -3968,63 +3972,72 @@ const ctx = document.getElementById("myChart").getContext("2d");
         ,
         {
           label: "Fury",
-          backgroundColor: transparent,
+          backgroundColor: "orange",
+          fill: false,
           borderColor: "orange",
           data: furyChartData,
           steppedLine: "after"
         },
         {
           label: "Joshua",
-          backgroundColor: transparent,
+          backgroundColor: "green",
+          fill: false,
           borderColor: "green",
           data: joshuaChartData,
           steppedLine: "after"
         },
         {
           label: "Whyte",
-          backgroundColor: transparent,
+          backgroundColor: "blue",
+          fill: false,
           borderColor: "blue",
           data: whyteChartData,
           steppedLine: "after"
         },
         {
           label: "Wilder",
-          backgroundColor: transparent,
+          backgroundColor: "black",
+          fill: false,
           borderColor: "black",
           data: wilderChartData,
           steppedLine: "after"
         },
         {
           label: "Povetkin",
-          backgroundColor: transparent,
+          backgroundColor: "grey",
+          fill: false,
           borderColor: "grey",
           data: povetkinChartData,
           steppedLine: "after"
         },
         {
           label: "Ortiz",
-          backgroundColor: transparent,
+          backgroundColor: "lightblue",
+          fill: false,
           borderColor: "lightblue",
           data: ortizChartData,
           steppedLine: "after"
         },
         {
           label: "Ruiz Jr.",
-          backgroundColor: transparent,
+          backgroundColor: "goldenrod",
+          fill: false,
           borderColor: "goldenrod",
           data: ruizChartData,
           steppedLine: "after"
         },
         {
           label: "Usyk",
-          backgroundColor: transparent,
+          backgroundColor: "lightgreen",
+          fill: false,
           borderColor: "lightgreen",
           data: usykChartData,
           steppedLine: "after"
         },
         {
           label: "Pulev",
-          backgroundColor: transparent,
+          backgroundColor: "purple",
+          fill: false,
           borderColor: "purple",
           data: pulevChartData,
           steppedLine: "after"
@@ -4067,6 +4080,7 @@ const ctx = document.getElementById("myChart").getContext("2d");
         position: 'top',
         labels: {
           fontSize: 20,
+          padding: 30,
           boxWidth: 40
         }
       }
